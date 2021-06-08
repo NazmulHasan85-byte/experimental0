@@ -1,0 +1,15 @@
+body{
+    background-image: url('./pic/pic3.jpg');
+    color: white;
+}
+th{
+
+    text-align: left;
+}
+table,th,td{
+    border: 1px solid #b87171;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
