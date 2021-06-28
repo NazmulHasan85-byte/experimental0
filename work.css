@@ -1,18 +1,123 @@
-body{
-    background-image: url('./pic/pic3.jpg');
-    color: white;
+.manu{
+    background-color: rgb(61, 66, 56);
+    margin-top: 10px;
+    padding: 0%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
 }
-th{
 
-    text-align: left;
+.manu1{
+    display: inline-block;
+    padding: 10px 20px;
 }
-table,th,td{
-    border: 1px solid #b87171;
-    border-collapse: collapse;
+.manu1,a{
+    text-decoration: none;
+
 }
-th,td{
-    padding: 10px;
+.manu1:hover{
+          background-color: rgb(135, 216, 43);
+          color: rgb(55, 201, 201);
 }
-.myPics{
-    margin-left: 20%;
+.bc{
+    background-color: rgb(149, 218, 218);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h3{
+    text-align: center;
+}
+.linr{
+    width: auto;
+    height: 10px;
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+
+}
+h2{
+    text-align: center;
+}
+h4{
+    border: 1px solid rgb(160, 31, 235);
+    background-color: rgb(69, 99, 99);
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    outline: medium 2px;
+    outline-style: solid;
+    outline-color: rgb(32, 30, 27);
+    outline-offset: 15px;
+}
+a{
+ 
+    color:rgb(20, 20, 20);
+    border: 1px solid rgb(173, 173, 104);
+}
+a:hover{
+    color: rgb(234, 238, 230);
+    background-color: rgb(107, 122, 107);
+}
+a:active{
+    color:rgb(54, 51, 51);
+    background-color: rgb(102, 165, 165);
+}
+div > p{
+    background-color: rgb(58, 85, 85);
+}
+.rambo{
+    border: 1px solid black;
+}
+img{
+width: 250px;
+height: 250px;
+
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.sal{
+    margin-left: 10px;
+    margin-right:40% ;
+    
+}
+.nm{
+  
+    margin-left: 40%;
+    margin-right: 45%;
+    margin-bottom: 30px;
+
+}
+.ns{
+    margin-left: 35%;
+}
+.list{
+    text-align: center;
+    co;orphans: rgb(65, 49, 49);
+    margin-top: 30px;
+
+}
+.lite{
+    list-style-type: squre;
+    text-align: center;
+    color: rgb(55, 65, 65);
+    margin-left:0;
+    
+}
+strong{
+    text-decoration: underline;
+}
+.lines{
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
